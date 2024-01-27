@@ -1,0 +1,9 @@
+.card-box{
+    display : flex;
+    align-items:center;
+    flex-direction: column; 
+   width:10rem;
+}
+.section1{
+    backgroung : gray
+}
