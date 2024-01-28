@@ -7,3 +7,6 @@
 .section1{
     backgroung : gray
 }
+.hidden0-box {
+    display: none;
+  }
