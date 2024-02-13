@@ -8,3 +8,20 @@ function showText(buttonID) {
   currentText.style.display = 'block'
 
 }
+let hoverZoomElements = document.querySelectorAll('.f-hoverzoom ');
+
+hoverZoomElements.forEach( function (element) {
+  
+  element.addEventListener('mouseover' ,function (event) {
+    event.preventDefault();
+    element.style.scale = '1.3'
+  })
+
+
+  element.addEventListener('mouseout',function (event) {
+    event.preventDefault();
+    element.style.scale = '1'
+  })
+});
+
+

@@ -720,9 +720,7 @@ strong {
 /*---------------------------------------
   SHOP              
 -----------------------------------------*/
-.shop-section {
-  background: var(--white-color);
-}
+
 
 .shop-listing-page .shop-section {
   padding-bottom: 0;
@@ -823,9 +821,7 @@ strong {
 /*---------------------------------------
   CONTACT               
 -----------------------------------------*/
-.contact-section {
-  background: var(--white-color);
-}
+
 
 .contact-form {
   background: var(--section-bg-color);
