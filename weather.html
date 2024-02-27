@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+  <link href="css/weather.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container d-flex justify-content-center">
+    <div class='row my-4'>
+      <div class="form__group">
+        <input type="text" class="form__input" id="CITY" placeholder="city name" required="" />
+        <label for="name" class="form__label">city name</label>
+        <button class="btn btn-info p-5" id="showWeather"> show</button>
+      </div>
+    </div>
+    <div class=" row  d-flex my-3 justify-content-center">
+      <article>
+        <div class="article-wrapper">
+       
+          <div class="article-body ">
+            <h2>This is some title</h2>
+            <p><span></span> </p>
+           <h4> High: <span></span><sup>0</sup></h4>
+           <h4> Low: <span></span><sup>0</sup></h4>
+
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+  <script src="js/weather.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
